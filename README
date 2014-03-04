@@ -1,0 +1,29 @@
+PYSGAME1
+========
+
+A pyside game, hammurabi style.
+
+INSPIRATION
+===========
+
+I like Civ 5, Banished, those sorts of games. But I like the idea of building
+and problem solving more than overcoming specific bugs.
+
+
+INSTALLING
+==========
+
+You'll need pyside and python.
+
+One of these days, I'll make it a proper exe with some kind of tool.
+
+RUNNING
+=======
+
+Just run pysgame1.py.
+
+EDITING
+=======
+
+If you want to edit the MainWindow.ui file, you'll need to rebuild it with
+pyside-uic. The output for it is Ui_MainWindow.ui.
