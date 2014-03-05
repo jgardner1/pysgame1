@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWindow.ui'
 #
-# Created: Mon Mar 03 22:18:34 2014
+# Created: Tue Mar 04 22:41:42 2014
 #      by: pyside-uic 0.2.15 running on PySide 1.2.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -12,14 +12,35 @@ from PySide import QtCore, QtGui
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.resize(1104, 755)
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.verticalLayout = QtGui.QVBoxLayout(self.centralwidget)
-        self.verticalLayout.setObjectName("verticalLayout")
+        self.gridLayout = QtGui.QGridLayout(self.centralwidget)
+        self.gridLayout.setObjectName("gridLayout")
         self.output = QtGui.QTextBrowser(self.centralwidget)
         self.output.setObjectName("output")
-        self.verticalLayout.addWidget(self.output)
+        self.gridLayout.addWidget(self.output, 0, 0, 1, 1)
+        self.frame = QtGui.QFrame(self.centralwidget)
+        self.frame.setFrameShape(QtGui.QFrame.StyledPanel)
+        self.frame.setFrameShadow(QtGui.QFrame.Raised)
+        self.frame.setObjectName("frame")
+        self.verticalLayout = QtGui.QVBoxLayout(self.frame)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.tabWidget = QtGui.QTabWidget(self.frame)
+        self.tabWidget.setObjectName("tabWidget")
+        self.tabPeople = QtGui.QWidget()
+        self.tabPeople.setObjectName("tabPeople")
+        self.verticalLayout_2 = QtGui.QVBoxLayout(self.tabPeople)
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.peopleTreeView = QtGui.QTreeView(self.tabPeople)
+        self.peopleTreeView.setObjectName("peopleTreeView")
+        self.verticalLayout_2.addWidget(self.peopleTreeView)
+        self.tabWidget.addTab(self.tabPeople, "")
+        self.tab_2 = QtGui.QWidget()
+        self.tab_2.setObjectName("tab_2")
+        self.tabWidget.addTab(self.tab_2, "")
+        self.verticalLayout.addWidget(self.tabWidget)
+        self.gridLayout.addWidget(self.frame, 0, 1, 1, 1)
         self.horizontalLayout = QtGui.QHBoxLayout()
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.label = QtGui.QLabel(self.centralwidget)
@@ -28,10 +49,10 @@ class Ui_MainWindow(object):
         self.input = QtGui.QLineEdit(self.centralwidget)
         self.input.setObjectName("input")
         self.horizontalLayout.addWidget(self.input)
-        self.verticalLayout.addLayout(self.horizontalLayout)
+        self.gridLayout.addLayout(self.horizontalLayout, 1, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1104, 21))
         self.menubar.setObjectName("menubar")
         self.menuFile = QtGui.QMenu(self.menubar)
         self.menuFile.setObjectName("menuFile")
@@ -74,6 +95,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "MainWindow", None, QtGui.QApplication.UnicodeUTF8))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabPeople), QtGui.QApplication.translate("MainWindow", "People", None, QtGui.QApplication.UnicodeUTF8))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QtGui.QApplication.translate("MainWindow", "Tab 2", None, QtGui.QApplication.UnicodeUTF8))
         self.label.setText(QtGui.QApplication.translate("MainWindow", "Input", None, QtGui.QApplication.UnicodeUTF8))
         self.input.setToolTip(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p>Enter some commands here</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.menuFile.setTitle(QtGui.QApplication.translate("MainWindow", "&File", None, QtGui.QApplication.UnicodeUTF8))

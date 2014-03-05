@@ -1,0 +1,62 @@
+The classes:
+
+QtGui.QTreeView: Our target.
+
+QtCore.QAbstractItemModel: The base class for our model.
+
+QtCode.QModelIndex: The guy who points to our data structure.
+
+DisplayRole: What kind of data you want from the cell, for example, the actual
+data, the tooltip, the "What's This?", etc...
+
+= Act 1 =
+
+Adding a QTreeView to our layout is easy enough. All that we really need to do
+is introduce the model. Once we get the model set up, it should all be done.
+
+To setup the model, we need to implement a new class that inherits from
+QtCore.QAbstractItemModel, and implements:
+
+- index(row, column, parent): Returns a new QModelIndex given row, column, and parent.
+
+- parent(index): Returns the parent of the QModelIndex you provide. (This is
+  called from QModelIndex::parent(), so you can't call that!)
+
+- rowCount(index): Returns the number of rows UNDER this index.
+
+- columnCount(index): Returns the number columns UNDER this index.
+
+- data(index, role): Returns the data for the role.
+
+The key to understanding this is really unlocked when you understand what a
+QModelIndex really is.
+
+Suppose you have a list of items = ['a', 'b', 'c', 'd'].
+
+What does the integer 1 in items[1] do? It acts as the *index*. Using that
+number, we have a number of things we can do:
+
+- Advance to the previous index (0)
+- Advance to the next index (2)
+- Fetch the data at the index ('b')
+
+Pretty simple? "1" in our little example above is the same thing a a
+QModelIndex, except the data structures that QModelIndex can traverse are much
+more complex.
+
+- The data is 2 dimensional: columns and rows, much like a database.
+
+- The data is nested. Row-column combinations can have child rows, which can be their own
+  database. This is much like inheritance in the database world. Generally,
+  only the first column (column 0) has children in the Qt world.
+
+There's also the strange little beast QModelIndex(), the QModelIndex without a
+row or column or parent. This is called the *invalid* QModelIndex, and
+represents a sort of "null" state. For instance, the top-level nodes have no
+parents. Their parent is QModelIndex(). The children of QModelIndex() are the
+top-level items.
+
+QModelIndex objects keep track of an "internalPointer". In the PySide
+universe, this can be whatever object you wish it to be. In the C++ world, it
+is simply a null pointer. It's up to the implementation of the
+QAbstractItemModel to determine what that is.

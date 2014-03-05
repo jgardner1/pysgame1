@@ -1,0 +1,108 @@
+This documents some of the game mechanics I want to have.
+
+- Your role: You take on the role of a governor of a small town far away from
+  civilization. The people with you are hardy settlers, looking to stake a
+  claim to their own land. Your options are myriad. Will you lead your people
+  to greatness? Or will you watch as each of your people are slaughtered and
+  enslaved by greedy orcs and goblins?
+
+- Individuals: Each individual in your city has their own skills and profession
+  and attitudes. Family relationships are important. Part of your job is to
+figure out what is going on and how you can help (or hurt) individuals lives.
+
+- Population control. Each turn, some babies are born. They tend to be born
+  too quickly. Don't worry, there are diseases and plagues and random events
+to keep your population in check.
+
+- Delegation. Part of the game is delegating to capable individuals in your
+  government. You'll find them from your people. Be sure to groom people,
+since when your current leaders die, they need to be replaced.
+
+- Part of a larger world. Surrounding your city are other things in this
+  world. For example:
+	- Your nation may call upon you to raise an army. Will they ever come
+	  back? Who knows what horrors await them.
+
+
+	- There are populations of orcs, goblins, etc... around you, and they
+	  interact with your city, usually in a negative way. Send out
+patrols, raise the guards, protect your city!
+
+	- Adventurers, heroes, and mercenaries will drift through town from
+	  time to time.  Will you let them in? Or will you bribe them to go
+	  away?
+
+- Quests: Each turn is about a month's time. Each month, you'll get a number
+  of issues that arise. Each is a quest. Handling each in different ways will
+  have certain results. The kinds of issues may be:
+
+  - Bandits raiding.
+  - Monster tribe is demanding tribute.
+  - Tax time!
+  - Neighborly disputes.
+  - Find the criminal.
+  - Someone in town asks for some help.
+  - A wizard has set up shop and is causing problems for your people.
+  - A witch! Burn her? Save her?
+  - A priest comes to your town and demands that the people pay their tithes
+    and offerings, or God will curse the land. Or maybe he asks that you build
+    him a small church, or maybe a big one, or maybe a huge castle!
+
+- Buildings: As you progress, you build buildings that give you and the people
+  certain bonuses.
+
+  - Homes: Homes come in a variety of shapes and sizes. All the people need to
+    ask you before they build in the city.
+
+  - Shops: Shops are where commerce occurs between the local citizen and the
+    merchants. They will start by asking you to set aside space for a
+    marketplace. When that fills up, they will ask to purchase some land for a
+    shop.
+
+  - Inns. Inns provide relief for your people, but at a cost! Their money will
+    be wasted on booze and gambling, unless you can keep order!
+
+  - Churches. Churches engender favor with God, who should help you in your
+    various problems. Churches also act as libraries and hospitals to your
+    people. But beware! If the churchmen get too powerful, they may start
+    calling the shots!
+
+  - Merchant guild halls. These guild halls are places where merchants can
+    buy, sell, and trade between cities. They are absolutely necessary if you
+    want to start moving serious goods.
+
+  - Workshops: There are many kinds of workshops, and each of them have their
+    own uses. generally, they make goods.
+
+  - Storehouses: Storehouses store the government's goods.
+
+  - Banks: Banks allow people to have currency. Beware of bankers!
+
+  - Walls, castles, towers, forts: These are used for military purposes.
+
+  - farms: Farms can be owned by you or owned by your people. Either way, they
+    need to be worked to generate crops. You can also set up renters who simply
+    have to pay in kind each year.
+
+  - Schools, universities: In schools and universities, your people can get
+    advanced educations. They also house professors and teachers.
+
+  - Public works: Roads, dykes, dams, ports, etc...: These increase the
+    available land, speed travel, and provide all kinds of bonuses
+
+
+Distant Future
+--------------
+
+I'd like to build a text-based world similar to the level of detail that Dwarf
+Fortress has. You can choose to be anyone, do anything. Since people have
+emotions and their own intentions, you can play off of them or each other. For
+instance, let's say you decide to be a bandit, and so you setup a camp outside
+of town. You rob the passersby, and they complain to the government, who
+dispatches a patrol to get rid of you. The commander of that unit figures out
+who you are and what you are up to. If you're small, he'll just beat you up,
+take you in, and take all of your stuff, giving some of it to the government
+to return to the people. If you're strong, he'll warn you from what you are
+doing. If you're really strong, he'll treat you like an equal, and you can
+setup a quid-pro-quo. If you're really, really strong, he may even defect and
+call you the local lord!
