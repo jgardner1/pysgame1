@@ -1,0 +1,10 @@
+Emotions work like traits, except they are constantly wavering based on the
+life eperiene of the individuals.
+
+- happy
+- healthy (really a physical state)
+- sane
+- focus
+
+Some conditions may limit the cap of these emotions. For instance, if a person
+was maimed, they will never reach full heath again.

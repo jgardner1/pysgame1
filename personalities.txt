@@ -1,0 +1,41 @@
+Everyone has a set of personalities. These, like emotions, are really ranges
+from 0.0 to 1.0.
+
+Personality traits affect how the person behaves and what they might choose to
+do.  Certain personalities will inspire bonuses or penalties in certain jobs
+and roles.
+
+Physical traits affect their ability to do things.
+
+values of 0.5 represent an average level of that personality. Values of 0.8
+represent extraordinary levels of that personality trait. Values less than 0.2
+represent and extraordinary deficiency.
+
+For example, the "kind" personality trait could represent the following scale:
+- 0.0 - Totally cruel.
+- 0.2 - Unusually cruel.
+- 0.4 - Slightly less kind than normal.
+- 0.5 - Normal kindness.
+- 0.6 - Very kind.
+- 0.8 - Extraordinarily kind.
+- 1.0 - God-like kindness.
+
+Personalities:
+- kind: Affects how they treat others and how others read them.
+- honest: Affects how likely they are to behave according to moral standards.
+- good: Affects how they value human life and living conditions.
+- sharing: Affects how likely they are to share their goods with others.
+- calm: Affects how likely they are to get angry or upset in bad
+  circumstances.
+- patient: Affects how long they can tolerate bad conditions before reacting
+  negatively.
+
+Traits:
+- intelligent: Affects how quickly they can learn things and how well they can
+  apply logic and reason.
+- wise: Affects how well they can make plans and see those plans succeed.
+- persuasive: Affects how well they can persuade others to do things.
+- physical: Affects how good they are at physical pursuits.
+- hardy: Affects how well they tolerate injury or disease.
+
+

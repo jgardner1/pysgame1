@@ -1,0 +1,75 @@
+Skills are learned through practice and training.
+
+Most skills deal with certain professions. Some skills deal with combat and
+fighting and tactics and strategy. The remaining skills deal with leadership
+and governance.
+
+Professions:
+- gather: Gather food from the wild.
+- hunt: Hunt for game.
+- build: Build buildings.
+- mine: Gather ore.
+- lumberjack: Gather wood from forests.
+- ...
+- steal: Use unsavory means to take what is not yours.
+
+Combat:
+- dodge: Read incoming blows and move out of the way in time.
+- block: Read incoming blows and effectively blunt it with a block of your.
+- absorb: Read incoming blows and effectively absorb the damage.
+- parry: Read incoming blows and effectively neutralize it with your weapon. A
+  successful parry gives you a follow up attack advantage.
+- strike: Attack with a hacking motion.
+- stab: Attack with a stabbing motion.
+- slice: Attack with a slicing motion.
+- grapple: Attack using wrestling moves.
+- teamwork: Work together as a team during battle.
+- tactics: Handle tactical decisions.
+- strategy: Handle strategic decisions.
+- inspire: Inspire other people to fight well.
+- taunt: Taunt or goad an enemy to attack or behave wrongly.
+
+Government:
+- administrate: Handle administration tasks.
+- inventory: Count what we own.
+- treasury: Count coin and treasure.
+- plan: Effectively plan for the future.
+- quell: Keep the citizens calm, especially during troubling times.
+- tax: Effectively collect taxes.
+- bribe: Effectively bribe other government officials.
+- judge: judge well.
+- spy: Spy either on your own people or on other peoples to get information.
+
+Improving Skills:
+
+People improve skills through practice. Not using a skill leads to it
+deteriorating. In general, it is a sort of logarithmic decline, meaning, you
+forget 1/2 of what you knew after 1 year, 1/4 more after the 2nd year, 1/8 the
+third. In the end, you will remember a great deal if you knew a great deal
+after a long time with no practice.
+
+People who are intelligent learn skills more quickly.
+
+Skills can be taught. The teaching skill is used to do so in a classroom type
+setting. Although teaching is very fast, it can only get a student to a basic
+level. Mentoring is another way to enhance skill learning. Sacrificing some of
+hte effectiveness of the mentor, the mentee(s) will gain skills even more
+quickly, and can reach mastery.
+
+Skill Ratings:
+
+Skill levels are between 0 (completely unaware of the skill) and 10 (perfect
+mastery). Each level in between represents a complete paradigm shift. People
+who are level 3 in a skill seem like experts to people who are level 2. If you
+were to say that a level 3 person is 10x as good as a level 2, then a level 10
+person is 10^9 times better than a level 1.
+
+Reaching level 10 in a lifetime is impossible. A student who starts from
+nothing, no training or mentoring, at best, can reach a level 2 or 3 before
+they die, even if they practice the skill every day. However, their level 2 or
+3, combined with teaching and mentoring, can get the next generation to a
+level 2 or 3 before they pass. Their improvements will get their skill level
+up to a 3 or 4. Using this pattern, it is possible to get to level 10 in 5
+generations, but only provided there is an unbroken chain of effective
+mentoring and teaching.
+different skill than teaching
