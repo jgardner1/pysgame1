@@ -27,3 +27,18 @@ EDITING
 
 If you want to edit the MainWindow.ui file, you'll need to rebuild it with
 pyside-uic. The output for it is Ui_MainWindow.ui.
+
+PACKAGING
+=========
+
+See http://qt-project.org/wiki/Packaging_PySide_applications_on_Windows
+
+I've written a simple spec file that includes the data files. I've also got the
+resource_path function that will load from the bundled files.
+
+To build:
+
+ python wherever-you-installed\PyInstaller-2.1\pyinstaller.py --onefile .\pysgame1.spec
+
+To run the .exe: Just navigate to the dist/ folder and run pysgame1.exe
+
