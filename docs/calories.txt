@@ -1,0 +1,109 @@
+I'm looking for how much food someone in the middle ages should eat in a day.
+
+Facts:
+1 gram of fat ~= 9 calories
+1 gram of carb/protein ~= 4 calories
+
+Meats are typically about 20% fat: 1 gram of meat = 3.2 + 1.8 = 5 calories
+Vegetables and everything else is about 0% fat: 4 calories / gram
+
+I can run with about 4.2 calories per gram, and then calculate how many
+calories a person eats and what effect that has on them.
+
+
+Resting Energy Expenditure:
+Easy formula: Males = 11 x body weight in pounds; females = 10 x body weight
+in pounds
+
+Hard formula:
+Males: 66.47 + 13.75 * weight in kg + 5 * height in cm - 6.76 * age in years
+Females: 655.1 + 9.65 * weight in kg + 1.84 * height in cm - 4.68 * age in
+years.
+
+The hard formula requires that I have heights and weights of the individuals.
+This isn't too hard --- it's what computers are good at. I'd need a
+distribution of heights and weights at given ages, birth to 99. I can set a
+genetic predisposition towards a certain height or weight that will move the
+individual one way or the other on the scale. I could calculate for growing
+children how many calories they need to build their height (assuming kids are
+spheres --- hey, I'm a physicist!) and then how many calories they need to get
+healthy weight gain, and then how many they need to maintain their activity.
+Not enough calories means they have stunted growth. Add it up over long terms,
+and you have midget, skinny children and adults.
+
+I could go the anal retentive way. Each food has a calorie chart. The amount
+of each food is tracked separately. Then people consume their food. The excess
+calories end up contributing to growth or limits the health and ability of the
+individual, and increases their disposition to sickness. I could take it six
+steps further and track all of the known microingredients -- vitamins and
+minerals -- and calculate what the healthy levels are, what deficiencies in
+one area or another is thought to lead to, etc...
+
+I don't think such a project is insurmountable. It would be entirely data
+driven, of course, and would be quite fun to work with.
+
+
+SIMPLEST MODEL
+==============
+
+The average American eats about 4.7 pounds of food a day. In the Middle Ages,
+I assume that eating 1 lb of food a day is enough to survive, barely. 2 pounds
+is more ideal, and livable, though a person could go all the way up to 5
+pounds of food a day, after which they would get quite fat.
+
+
+HOW MUCH FOOD TO EAT? How much to store?
+=====================
+
+In the winter months, the people might calculate how much food they have
+stored versus how much longer until they can get food from the land again. In
+addition to this, they likely set aside some animals to be slaughtered at key
+times. This food planning was done carefully, and generally allowed for some
+bad things to happen.
+
+In the summer months, the goal was to reach the storage goal to survive
+winter. As long as you think you can hit that goal of stored food, eat as much
+as you can! You need the energy to do all the work needed. How can you predict
+how much food you will get from your activities? You know how large your field
+is, what the typical yield is.
+
+In the game, it is up to the player to budget the food. They need to set
+storage goals and eating goals. However, households outside of the player's
+control need to set their own goals. These goals will reflect the attributes
+and traits of the head of household.
+
+Extra food can be given to the church to donate to the poor and needy, as a
+sort of community storehouse. Strong households might also give away some of
+their food each day, particularly in the winter months.
+
+Some households which focus on producing foods will sell their surplus foods
+at the market. They will pace themselves to ensure they always have something
+to sell. They depend on a steady flow of coin from those who do not store
+their food effectively.
+
+Households with regular income and a functioning market nearby may count on
+the market having food available during the winter. This is risky, but can be
+advantageous.
+
+ROTTING FOOD
+============
+
+Medievil man was mostly worried about preserving food for winter. That means
+3-6 months of cold before you can start subsisting on the land again.
+
+The principal preservative method was drying or salting the food. In winter
+times, livestock would supplement the dried foods from the summer. Grains also
+store well, and can lead to bread all year long.
+
+Storing food came with its own problems.
+
+- Thieves would steal stored food. Those thieves may be found in your own
+  house!
+
+- Food rots over time unless properly preserved.
+
+- Vermin like mice and such may eat your food right out from under you. This
+  is particularly true for grain.
+
+One of the best places to store food is in your belly. It wasn't uncommon for
+people to fatten up like their cattle, to face the lean months of winter.
