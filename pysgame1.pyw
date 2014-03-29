@@ -6,7 +6,7 @@ import random, weakref
 # see.
 from PySide import QtCore, QtGui, QtUiTools, QtXml
 from Ui_MainWindow import Ui_MainWindow
-import sys
+import sys, os
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
@@ -27,6 +27,11 @@ def load_names(filename):
 female_names = load_names("female_names.txt")
 male_names = load_names("male_names.txt")
 surnames = load_names("surnames.txt")
+
+def clamp(bottom, top, value):
+    """Returns value clamped between bottom and top."""
+    assert bottom < top
+    return max(bottom, min(top, value))
 
 class Household(object):
 
@@ -85,7 +90,7 @@ class Household(object):
 
 
 class Person(object):
-    
+
     def __init__(self, household, game, gender=None):
         self.gender = gender or random.choice(['M','F'])
         self.age = int(min(65, max(0, random.gauss(25, 10))))
@@ -95,10 +100,15 @@ class Person(object):
         self.job = "gather"
         self.household = weakref.proxy(household)
         self.game = weakref.proxy(game)
+        self.you = False
 
     @property
     def name(self):
-        return "{} {}".format(self.first_name, self.surname)
+        name = "{} {}".format(self.first_name, self.surname)
+        if self.you:
+            return name + ' (you)'
+        else:
+            return name
 
     def __repr__(self):
         return "<Person %s %s (%s) age %d at 0x%#d>" % (
@@ -119,14 +129,23 @@ class Person(object):
             self.household.food += found_food
         else:
             self.game.output.emit("{} doesn't know how to {}.".format(self.name, self.job))
-	
+
 class Game(QtCore.QObject):
     output = QtCore.Signal(str)
     def __init__(self):
         super(Game, self).__init__()
+
+        # Your household
         self.household = Household(self)
+        self.age = clamp(18, 25, random.gauss(20, 3))
+
+        # You
+        self.you = Person(self.household, self, 'M')
+        self.you.job = "administer"
+        self.you.you = True
+
         self.other_households = []
-        self.household.members = [Person(self.household, self) for _ in xrange(5)]
+        self.household.members = [self.you]+[Person(self.household, self) for _ in xrange(5)]
 
     def end_turn(self):
         #self.citizens += int(self.citizens*0.2+0.5)
@@ -208,7 +227,7 @@ class TreeModel(QtCore.QAbstractItemModel):
         if not parent.isValid():
             return len(self.rootNodes)
         node = parent.internalPointer()
-        return len(node.subnodes) 
+        return len(node.subnodes)
 
 class HouseholdNode(TreeNode):
 
@@ -228,7 +247,7 @@ class PersonNode(TreeNode):
 
     def _getChildren(self):
         return []
-        
+
 
 class PeopleTreeModel(TreeModel):
     """First level: Households. Second level: Members of the household."""
@@ -334,12 +353,12 @@ class MainWindow(QtGui.QMainWindow):
         self.game.end_turn()
 
 
-        
 
 
 
-    
-    
+
+
+
 
 
 
