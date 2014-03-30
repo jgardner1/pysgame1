@@ -7,6 +7,9 @@ from pysgame1.util import clamp
 from PySide import QtCore
 
 class Household(object):
+    """A Household has members. Each household has its own store of food and
+    gold and such. People tend to eat together and share resources within a
+    household."""
 
     def __init__(self, game):
         self.food = 0
@@ -63,6 +66,19 @@ class Household(object):
 
 
 class Person(object):
+    """A Person is a person.
+
+    gender: M or F
+    age: An int
+    first_name: Their first name, based on their gender.
+    surname: Their family name.
+    job: Their current job.
+    household: The household they belong to (weakref.) Persons always belong
+        to a house. If they break away, they form their own house.
+    game: weakref to the game object.
+    you: Whether this is the main character.
+    name: (prop) The calculated name. Appends '(you)' if it is you.
+    """
 
     def __init__(self, household, game, gender=None):
         self.gender = gender or random.choice(['M','F'])
@@ -92,6 +108,7 @@ class Person(object):
                 id(self))
 
     def do_job(self):
+        """Applies the job and reaps the effects."""
         if self.job == "gather":
             # Go out into the woods and find food in bushes and such.
             # Should vary based on the time of year. Summer is the most
@@ -104,6 +121,7 @@ class Person(object):
             self.game.output.emit("{} doesn't know how to {}.".format(self.name, self.job))
 
 class Game(QtCore.QObject):
+    """The main game object."""
     output = QtCore.Signal(str)
     def __init__(self):
         super(Game, self).__init__()
