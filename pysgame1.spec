@@ -5,7 +5,7 @@ a = Analysis(['.\\pysgame1.pyw'],
              hookspath=None,
              runtime_hooks=None)
 
-a.datas += [(filename, a.pathex[0]+'\\'+filename, 'DATA') for filename in (
+a.datas += [(filename, a.pathex[0]+'\\data\\'+filename, 'DATA') for filename in (
 	'female_names.txt',
 	'male_names.txt',
 	'surnames.txt')]

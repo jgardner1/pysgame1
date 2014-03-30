@@ -1,12 +1,14 @@
 #!/usr/bin/env python
 
-import random, weakref
+import random
+import weakref
+import sys
+import os
 
 # Though QtXml is not used, it is a hidden import that PyInstaller needs to
 # see.
 from PySide import QtCore, QtGui, QtUiTools, QtXml
 from Ui_MainWindow import Ui_MainWindow
-import sys, os
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
@@ -19,14 +21,16 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 def load_names(filename):
+    """Loads a name file and returns it as a list of names"""
+	
     names = file(resource_path(filename)).read().split('\n')
     names = [name.strip() for name in names]
     names = [name for name in names if name]
     return names
 
-female_names = load_names("female_names.txt")
-male_names = load_names("male_names.txt")
-surnames = load_names("surnames.txt")
+female_names = load_names("data/female_names.txt")
+male_names = load_names("data/male_names.txt")
+surnames = load_names("data/surnames.txt")
 
 def clamp(bottom, top, value):
     """Returns value clamped between bottom and top."""
