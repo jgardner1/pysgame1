@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 import random
 import weakref
@@ -8,7 +8,7 @@ import os
 # Though QtXml is not used, it is a hidden import that PyInstaller needs to
 # see.
 from PySide import QtCore, QtGui, QtUiTools, QtXml
-from Ui_MainWindow import Ui_MainWindow
+from pysgame1.Ui_MainWindow import Ui_MainWindow
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
@@ -366,7 +366,7 @@ class MainWindow(QtGui.QMainWindow):
 
 
 
-if __name__ == "__main__":
+def main():
     import sys
     app = QtGui.QApplication(sys.argv)
     mw = MainWindow()

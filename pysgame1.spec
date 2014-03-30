@@ -1,5 +1,5 @@
 # -*- mode: python -*-
-a = Analysis(['.\\pysgame1.pyw'],
+a = Analysis(['.\\play.pyw'],
              pathex=['D:\\Documents\\GitHub\\pysgame1'],
              hiddenimports=[],
              hookspath=None,
