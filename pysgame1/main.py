@@ -7,6 +7,10 @@ from pysgame1.ui import MainWindow
 from pysgame1.game import Game
 
 def main():
+    """Execute the main loop."""
+
+    # The following is really boilerplate code you'd need for any Qt app.
+
     # Create the QApplication. This holds the main loop.
     app = QtGui.QApplication(sys.argv)
 
