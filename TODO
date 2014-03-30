@@ -1,0 +1,36 @@
+* Need to connect up the game objects so that their changes are signalled and
+  the UI updates.
+
+* Need to handle more jobs:
+    * Guard: Guards the manor, village, and common areas.
+    * Patrol: Patrols the surrounding areas, looking for bad things.
+    * Cook: Cooks the food.
+    * Forager: Forages for food.
+    * Farmer: Plows fields and plants crops.
+    * Herder: Herds animals.
+    * Steward: Manages all the stuff for the lord.
+
+* Need to handle more economic goods.
+
+* Split jobs & set goals. IE, a person can be both a cook and a farmer. Of
+  course, you have to prioritize.
+
+* Start setting up the contract / allegiance profile.
+    * People owe the lord a certain amount.
+    * People choose what they do outside of that.
+    * What happens if they can't pay their dues?
+    * How can the lord attract more people?
+
+* Start building the dialogue system.
+    * Build out dialogue tree for each possible interaction.
+
+* Relationships. Start with attraction and marriage. Add in friends and
+  loyalty.
+
+* Personalities, skills, talents: Start having the system affected by that.
+
+* Corruption. People steal, fight, cheat, murder, rape.
+
+* Church and lord demands.
+
+* Random / planned events. Holidays. Fairs.
