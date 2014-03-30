@@ -3,8 +3,6 @@
 from PySide import QtCore, QtGui, QtUiTools, QtXml
 from pysgame1.Ui_MainWindow import Ui_MainWindow
 
-from pysgame1.game import Household, Person, Game
-
 invalid_QModelIndex = QtCore.QModelIndex()
 class TreeNode(object):
     """Adapted from
@@ -153,10 +151,10 @@ class PeopleTreeModel(TreeModel):
 
 
 class MainWindow(QtGui.QMainWindow):
-    def __init__(self, parent=None):
+    def __init__(self, game, parent=None):
         super(MainWindow, self).__init__(parent)
 
-        self.game = Game()
+        self.game = game
 
         # Load main.ui
         self.ui = Ui_MainWindow()
