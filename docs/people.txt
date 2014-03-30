@@ -1,0 +1,39 @@
+Nobility: Freeman who own lots of land or who are related to nobles and who
+report to the Lord or even King. Noble males are generally knights, until they
+get injured or old and are forced to manage some manor somewhere.
+
+Freemen: They can pretty much do what they want since they are not slaves.
+
+    * Free peasants: Hold land, lots of it, but they can leave and go
+      somewhere else.
+        * Yeoman owes the lord a man-at-arms. 20-30 acres.
+        * Sergeant owes the lord a sergeant, a mounted man-at-arms but not a
+          knight. 50-70 acres.
+
+    * Professional soldier: Generally part of the retinue of the lord.
+        * about 10l for a knight
+        * about 6l for a sergeant
+        * about 4l for a man-at-arms.
+    * Townsmen. Work in town as a craftsman.
+
+Serfs: Not free, but tied to the land.
+    * villeins: rent a large chunk of land.
+    * cottars: REnt a house and some land around it, about 1 acre,
+    * Ministeriales: Knights that bound to their lord by some oath.
+
+
+FAIRS
+
+Merchants travel a fair circuit, protected by the owner of the circuit who
+generally holds the host responsible. These are how most economic activity is
+handled.
+
+Local fairs occur in connection with the bigger fair. Groups of minor
+merchants sweep through the smaller villages and arrive at the larger towns
+just as the fair arrives.
+
+The fairs follow an annual circuit.
+
+
+
+

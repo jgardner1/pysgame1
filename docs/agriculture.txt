@@ -1,0 +1,78 @@
+http://myweb.tiscali.co.uk/thelemur/ars/mundane_background/General/medieval_agriculture.html
+
+Crop yields:
+Crop (sowing season)
+	Notes
+	Seed per acre (bushels)
+	Net Yield / acre - poor year (bushels)
+    Net Yield / acre - average year (bushels)
+    Net Yield / acre -good year (bushels)
+	Typical value of a bushel (at field)
+Wheat (Winter)
+    The preferred grain
+	2
+	3
+	7
+	12
+	21d
+Barley (Winter)
+    Higher-yielding than wheat but not as nutritious or tasty.  Needed for beer.
+	4
+	2
+	14
+	17
+	13d
+Mixtill (Winter)
+	Wheat and Barley mixed
+	3
+	4
+	11
+	19
+	15d
+Oats (Spring)
+	A reliable crop
+	4.5
+	8
+	14
+	25
+	11d
+Dredge (Spring)
+	Oats and Barley - spring barley rarely grown on its own.
+	4
+	5
+	16
+	23
+	12d
+Peas and beans (Spring)
+    Mostly various beans.  Bad years can be very bad.
+	3.5
+	2
+	6
+	11
+	6d
+
+A person needs about 25 bushels of mixed produce to survive a year. 3/4 come
+from crops grown into the field. (1/4 from meat, fish, garden fruit and
+vegetables and foraged foods.) Thus, each person needs about 2.5 acres of
+wheat, barley and legumes. In a poor year, 4-5 acres are needed per person.
+
+
+Three Field system:
+Each family holds a number of strips of land (selions). A field will contain
+mabt selions. The Lord will have some selions mixed in with the others.
+
+There are three fields. They rotate each year. One has a winter crop, sown in
+autumn, harvested in summer), one has spring crops (sown after last frost for
+harvest in autumn) and the other left bare, maybe plowed, or used for grazing.
+
+The fields are broken up into furlongs unevenly. A single crop is grown in
+each furlong. Each furlong has several selions.  Selions are about 1/2 acre.
+They are long to make plowing easy.
+
+A peasant is given selions in each of the three fields, in each of the
+furlongs, to ensure that they have a variety of food. A half-virgater (typical
+peasant) has 20-25 selions. A virgater (wealthy peasant) has 45-50 or more.
+
+Steward keeps a record of who owns what, combined with memory and tradition.
+
+
